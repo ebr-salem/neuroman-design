@@ -50,7 +50,6 @@ main{
     transform: translateY(-100%);
 }
 
-  .card a:hover {
-    text-decoration: underline;
-  }
-  
+.card a:hover {
+    text-decoration: underline !important;
+}
