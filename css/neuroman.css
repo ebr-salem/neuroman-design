@@ -25,6 +25,9 @@ main{
 .card {
     border: none;
     border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 15px;
 }
 
 .footer {
@@ -46,3 +49,8 @@ main{
 .headroom--unpinned {
     transform: translateY(-100%);
 }
+
+  .card a:hover {
+    text-decoration: underline;
+  }
+  
