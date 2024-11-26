@@ -1,0 +1,37 @@
+:root {
+    --background-color: #717DE8;
+    --button-color: #589AFB;
+    --dark-color: #0A032A;
+}
+
+.main-btn {
+    background-color: var(--button-color);
+    color: white;
+    padding: 0.5rem 1rem;
+}
+
+.main-btn:hover {
+    color: white;
+    background-color: var(--dark-color);
+}
+main{
+    background-image: url('public/images/Group 303.png');
+}
+
+.navbar {
+    background-color: #717DE8;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+}
+
+.footer {
+    font-size: 0.9rem;
+    background-color: var(--dark-color);
+}
+.signUpFooter:hover {
+    background-color:white;
+    color: var(--dark-color);
+}
