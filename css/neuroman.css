@@ -99,7 +99,8 @@ main {
     transition: background-color 0.3s ease;
 }
 
-.circle-btn-right, .circle-btn-left {
+.circle-btn-right,
+.circle-btn-left {
     width: 60px;
     height: 60px;
     background-color: white;
@@ -124,9 +125,40 @@ main {
     transform: translateY(-50%);
 }
 
-.circle-btn-right {  
+.circle-btn-right {
     position: absolute;
     top: 50%;
     right: 1%;
     transform: translateY(-50%);
 }
+
+.category-card {
+    border: none;
+    background-color: #BDDBFF;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.category-card.blue {
+    background-color: var(--button-color);
+    color: #fff;
+}
+
+.discount-badge {
+    background-color: #ff4d4d;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    padding: 3px 8px;
+    font-size: 0.8rem;
+    border-radius: 5px;
+}
+
+.product-card img {
+    border-radius: 8px;
+    object-fit: cover;
+}
+
