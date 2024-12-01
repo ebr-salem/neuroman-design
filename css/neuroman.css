@@ -101,8 +101,8 @@ main {
 
 .circle-btn-right,
 .circle-btn-left {
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     background-color: white;
     border: none;
     border-radius: 50%;
@@ -121,14 +121,14 @@ main {
 .circle-btn-left {
     position: absolute;
     top: 50%;
-    left: 1%;
+    left: 0%;
     transform: translateY(-50%);
 }
 
 .circle-btn-right {
     position: absolute;
     top: 50%;
-    right: 1%;
+    right: 0%;
     transform: translateY(-50%);
 }
 
