@@ -18,9 +18,10 @@
 
 .main-btn:hover {
     color: white;
-    background-color: var(--dark-color) ;
+    background-color: var(--dark-color);
 }
-main{
+
+main {
     background-image: url('public/images/Group 303.png');
 }
 
@@ -40,8 +41,9 @@ main{
     font-size: 0.9rem;
     background-color: var(--dark-color);
 }
+
 .signUpFooter:hover {
-    background-color:white;
+    background-color: white;
     color: var(--dark-color);
 }
 
@@ -49,9 +51,11 @@ main{
     will-change: transform;
     transition: transform 200ms linear;
 }
+
 .headroom--pinned {
     transform: translateY(0%);
 }
+
 .headroom--unpinned {
     transform: translateY(-100%);
 }
@@ -59,9 +63,11 @@ main{
 .card a:hover {
     text-decoration: underline !important;
 }
+
 .footer .facebook {
     background-color: #1877f2;
 }
+
 .footer .twitter {
     background-color: #1da1f2;
 }
@@ -73,12 +79,54 @@ main{
 .footer .youtube {
     background-color: #ff0000;
 }
+
 .cart-content {
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 10px;
     padding: 20px;
 }
 
-.select-content{
+.select-content {
     background-color: rgba(255, 255, 255, 0.1);
+}
+
+.dot {
+    width: 15px;
+    height: 15px;
+    background-color: gray;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.circle-btn-right, .circle-btn-left {
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.circle-btn i {
+    font-size: 24px;
+    color: gray;
+}
+
+.circle-btn-left {
+    position: absolute;
+    top: 50%;
+    left: 1%;
+    transform: translateY(-50%);
+}
+
+.circle-btn-right {  
+    position: absolute;
+    top: 50%;
+    right: 1%;
+    transform: translateY(-50%);
 }
