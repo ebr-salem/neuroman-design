@@ -162,3 +162,30 @@ main {
     object-fit: cover;
 }
 
+
+.sidebar {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h6 , .sidebar h5 {
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+    font-weight: bold;
+}
+.sidebar h6{
+    background: #f8f9fa;
+}
+
+.menu-item {
+    border-bottom: 1px solid #f0f0f0;
+    padding: 10px 15px;
+}
+
+.custom-card {
+    background-color: #112a4f; 
+    color: white;
+    border-radius: 10px; 
+    padding: 15px; 
+  }

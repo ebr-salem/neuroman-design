@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Neuroman Payment Page</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/neuroman.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body style="background: url('public/images/Group 303.png') center/cover">
+    <!-- Start Navbar -->
+    <nav id="headroom" class="navbar navbar-expand-lg sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="public/images/logo_1.png" alt="logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#main"
+          aria-controls="main"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="main">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link p-lg-3 active text-white"
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3 text-white" href="#">COURSES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3 text-white" href="#">NEWS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3 text-white" href="#">STORE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3 text-white" href="#">ARTICALS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3 text-white" href="#">CONTACT US</a>
+            </li>
+          </ul>
+          <div
+            class="d-flex flex-column gap-2 ml-auto mb-2 mb-lg-0 d-lg-flex align-items-center justify-content-center"
+          >
+            <a class="btn main-btn" href="#">Login</a>
+            <a class="btn main-btn" href="#"> Member Ship</a>
+            <a class="support" href="#">
+              <img src="public/images/suport.png" alt="logo" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+    <div class="container py-5">
+      <!-- Main Layout -->
+      <div class="row g-4">
+        <!-- Left Section: Video -->
+        <div class="col-lg-8">
+          <h2 class="fw-bold text-center mb-4">Anatomy of the Heart</h2>
+          <div class="video-section shadow p-0">
+            <img
+              src="public/images/store/Course_vid.png"
+              alt="Anatomy of the Heart"
+              class="img-fluid"
+            />
+            <a href="#" class="play-button text-decoration-none">
+              <i class="bi bi-play-circle-fill"></i>
+            </a>
+          </div>
+          <h4 class="section-title mt-4">Description</h4>
+          <p class="description">
+            In this lecture Professor Zach Murphy will be presenting on the
+            Anatomy of the Heart. <br />
+            We will be using a SOMSO anatomical heart model for this
+            presentation.
+          </p>
+          <h4 class="section-title fw-bold mt-5 mb-5">Notes</h4>
+          <!-- Buttons: Notes, Quiz -->
+         <div class="row g-4 d-flex justify-content-center flex-column-md align-items-start">
+          <div class="container col-lg-4 col-md-6 mb-3">
+            <div class="custom-card row">
+              <h5 class="mb-0 col-4">Notes</h5>
+              <div class="text-end col-8">
+                <span class="text-danger">
+                  <i class="fa-regular fa-star"></i> Members Only
+                </span>
+                <p class="mt-3 mb-0 fs-5">Arrhythmias</p>
+              </div>
+            </div>
+          </div>  
+          <div class="container col-lg-4 col-md-6">
+            <div class="custom-card row">
+              <h5 class="mb-0 col-4">Quiz</h5>
+              <div class="text-end col-8">
+                <span class="text-danger">
+                  <i class="fa-regular fa-star"></i> Members Only
+                </span>
+                <p class="mt-3 mb-0 fs-5">Arrhythmias</p>
+              </div>
+            </div>
+          </div>
+         </div>
+        </div>
+
+        <!-- Right Section: Sidebar -->
+        <div class="col-lg-4">
+          <div class="sidebar">
+            <h5>
+              <img src="public/images/store/cardio_img.png" alt="" />
+              Cardiovascular
+            </h5>
+            <div class="menu">
+              <!-- Anatomy Section -->
+              <h6 class="fw-bold">Anatomy</h6>
+              <div class="menu-item">
+                <a class="support text-decoration-none p-1" href="#">
+                  <img src="public/images/store/play_vid.png" alt="logo" />
+                </a>
+                Anatomy of the Heart
+              </div>
+              <div class="menu-item">
+                <a class="support text-decoration-none p-1" href="#">
+                  <img src="public/images/store/play_vid.png" alt="logo" /> </a
+                >Structures and Layers of the Heart
+              </div>
+              <div class="menu-item">
+                <a class="support text-decoration-none p-1" href="#">
+                  <img src="public/images/store/play_vid.png" alt="logo" /> </a
+                >Intrinsic Cardiac Conduction System
+              </div>
+              <div class="menu-item">
+                <a class="support text-decoration-none p-1" href="#">
+                  <img src="public/images/store/play_vid.png" alt="logo" /> </a
+                >Extrinsic Cardiac Conduction System
+              </div>
+              <div class="menu-item">
+                <a class="support text-decoration-none p-1" href="#">
+                  <img src="public/images/store/play_vid.png" alt="logo" />
+                </a>
+                EKG Basics – How to Read & Interpret EKGs
+              </div>
+              <div class="menu-item">
+                <a class="support text-decoration-none p-1" href="#">
+                  <img src="public/images/store/play_vid.png" alt="logo" /> </a
+                >Cardiovascular | EKG Basics
+              </div>
+
+              <!-- Physiology Section -->
+              <h6 class="fw-bold mt-3">Physiology</h6>
+              <div class="menu-item">
+                <a class="support text-decoration-none p-1" href="#">
+                  <img src="public/images/store/play_vid.png" alt="logo" /> </a
+                >Cardiovascular | Cardiac Cycle
+              </div>
+              <div class="menu-item">
+                <a class="support text-decoration-none p-1" href="#">
+                  <img src="public/images/store/play_vid.png" alt="logo" /> </a
+                >Cardiac Cycle: Digital Version
+              </div>
+              <div class="menu-item">
+                <a class="support text-decoration-none p-1" href="#">
+                  <img src="public/images/store/play_vid.png" alt="logo" /> </a
+                >Cardiac Output
+              </div>
+              <div class="menu-item">
+                <a class="support text-decoration-none p-1" href="#">
+                  <img src="public/images/store/play_vid.png" alt="logo" /> </a
+                >Blood Vessel Characteristics
+              </div>
+              <div class="menu-item">
+                <a class="support text-decoration-none p-1" href="#">
+                  <img src="public/images/store/play_vid.png" alt="logo" /> </a
+                >Tunic Layers & Types of Capillaries
+              </div>
+              <div class="menu-item">
+                <a class="support text-decoration-none p-1" href="#">
+                  <img src="public/images/store/play_vid.png" alt="logo" /> </a
+                >Microcirculation
+              </div>
+              <div class="menu-item">
+                <a class="support text-decoration-none p-1" href="#">
+                  <img src="public/images/store/play_vid.png" alt="logo" /> </a
+                >Fundamentals Of Blood Pressure
+              </div>
+              <div class="menu-item">
+                <a class="support text-decoration-none p-1" href="#">
+                  <img src="public/images/store/play_vid.png" alt="logo" /> </a
+                >Blood Pressure Regulation|Hypotension
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="py-5 text-center">
+      <h2 class="mb-5">RECENT LECTURES</h2>
+      <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <!-- First Slide -->
+          <div class="row row-cols-1 row-cols-md-4 g-0">
+            <!-- Card 1 -->
+            <div
+              class="card shadow-sm col-lg-3 col-md-3 mb-3"
+              style="width: 18rem"
+            >
+              <div class="position-relative">
+                <img
+                  src="public/images/store/course_card_1.png"
+                  class="card-img-top"
+                  alt="Stethoscope"
+                />
+              </div>
+              <div class="card-body">
+                <p class="text-start">ANATOMY</p>
+                <h5 class="card-title">ANATOMY OF THE HEART</h5>
+              </div>
+            </div>
+            <!-- Card 2 -->
+            <div
+              class="card shadow-sm col-lg-3 col-md-3 mb-3"
+              style="width: 18rem"
+            >
+              <div class="position-relative">
+                <img
+                  src="public/images/store/course_card_2.png"
+                  class="card-img-top"
+                  alt="Stethoscope"
+                />
+              </div>
+              <div class="card-body">
+                <p class="text-start">ANATOMY</p>
+                <h5 class="card-title">ANATOMY OF THE HEART</h5>
+              </div>
+            </div>
+            <!-- Card 3 -->
+            <div
+              class="card shadow-sm col-lg-3 col-md-3 mb-3"
+              style="width: 18rem"
+            >
+              <div class="position-relative">
+                <img
+                  src="public/images/store/course_card_3.png"
+                  class="card-img-top"
+                  alt="Stethoscope"
+                />
+              </div>
+              <div class="card-body">
+                <p class="text-start">ANATOMY</p>
+                <h5 class="card-title">ANATOMY OF THE HEART</h5>
+              </div>
+            </div>
+            <!-- Card 4 -->
+            <div
+              class="card shadow-sm col-lg-3 col-md-3 mb-3"
+              style="width: 18rem"
+            >
+              <div class="position-relative">
+                <img
+                  src="public/images/store/course_card_4.png"
+                  class="card-img-top"
+                  alt="Stethoscope"
+                />
+              </div>
+              <div class="card-body">
+                <p class="text-start">ANATOMY</p>
+                <h5 class="card-title">ANATOMY OF THE HEART</h5>
+              </div>
+            </div>
+          </div>
+          <div
+            class="container d-flex justify-content-center align-items-center"
+          >
+            <button class="circle-btn-left">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+          </div>
+          <div
+            class="container d-flex justify-content-center align-items-center"
+          >
+            <button class="circle-btn-right">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="container d-flex justify-content-center align-items-center mb-5"
+    >
+      <div>
+        <span class="dot active bg-dark"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </div>
+    <div class="footer text-center text-white-50 pt-5 pb-5 text-md-start">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <div class="info">
+              <img class="mb-4" src="public/images/logo_1.png" alt="Oops" />
+              <ul class="list-unstyled lh-lg">
+                <li class="text-light">Membership</li>
+                <li class="text-light">FAQ</li>
+                <li class="text-light">What's New</li>
+                <li class="text-light">Donate</li>
+                <li class="text-light">Team</li>
+                <li class="text-light">Contact</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-5 col-lg-3">
+            <h5 class="fw-bold text-light">Courses</h5>
+            <div class="row">
+              <div class="col-6">
+                <ul class="list-unstyled">
+                  <li class="text-light">Cardiovascular</li>
+                  <li class="text-light">Endocrinology</li>
+                  <li class="text-light">Neurology</li>
+                  <li class="text-light">Genitourinary</li>
+                  <li class="text-light">Renal</li>
+                  <li class="text-light">Biochemistry</li>
+                  <li class="text-light">Musculoskeletal</li>
+                  <li class="text-light">Embryology</li>
+                  <li class="text-light">Respiratory</li>
+                  <li class="text-light">Reproductive</li>
+                  <li class="text-light">EENT</li>
+                  <li class="text-light">Hematology</li>
+                </ul>
+              </div>
+              <div class="col-6">
+                <ul class="list-unstyled">
+                  <li class="text-light">Immunology</li>
+                  <li class="text-light">Gastrointestinal</li>
+                  <li class="text-light">Circulatory</li>
+                  <li class="text-light">Cell Biology</li>
+                  <li class="text-light">Microbiology</li>
+                  <li class="text-light">Orthopedics</li>
+                  <li class="text-light">Metabolism</li>
+                  <li class="text-light">Integumentary</li>
+                  <li class="text-light">Pharmacology</li>
+                  <li class="text-light">Case Studies</li>
+                  <li class="text-light">Fan Mail</li>
+                  <li class="text-light">Anatomy & Physiology</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-2">
+            <div class="links">
+              <h5 class="text-light">SHOPPING INFO</h5>
+              <ul class="list-unstyled lh-lg">
+                <li class="text-light">Your Cart</li>
+                <li class="text-light">Your Orders</li>
+                <li class="text-light">Compared Items</li>
+                <li class="text-light">Wishlist Items</li>
+                <li class="text-light">Shipping Details</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="contact">
+              <h5 class="text-light">Contact Us</h5>
+              <p class="lh-lg mt-3 mb-5">
+                Get in touch with us via mail phone.We are waiting for your call
+                or message
+              </p>
+              <a
+                class="signUpFooter btn rounded-pill main-btn w-100"
+                href="sign_up_page.html"
+                >Sign Up</a
+              >
+              <ul
+                class="d-flex mt-5 list-unstyled gap-3 align-items-center justify-content-center"
+              >
+                <li>
+                  <a class="d-block text-light" href="#"
+                    ><i
+                      class="fa-brands fa-facebook fa-lg facebook rounded-circle p-2"
+                    ></i
+                  ></a>
+                </li>
+                <li>
+                  <a class="d-block text-light" href="#"
+                    ><i
+                      class="fa-brands fa-twitter fa-lg twitter rounded-circle p-2"
+                    ></i
+                  ></a>
+                </li>
+                <li>
+                  <a class="d-block text-light" href="#"
+                    ><i
+                      class="fa-brands fa-linkedin fa-lg linkedin rounded-circle p-2"
+                    ></i
+                  ></a>
+                </li>
+                <li>
+                  <a class="d-block text-light" href="#"
+                    ><i
+                      class="fa-brands fa-youtube fa-lg youtube rounded-circle p-2"
+                    ></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Footer -->
+
+    <!-- End of the page -->
+    <footer class="bg-dark text-white text-center py-3">
+      <p>Brand Registered Name &copy; – All rights reserved</p>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.12.0/headroom.min.js"
+      integrity="sha512-9UsrKTYzS9smDm2E58MLs0ACtOki+UC4bBq4iK5wi7lJycwqcaiHxr1bdEsIVoK0l5STEzLUdYyDdFQ5OEjczw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      $(document).ready(() => {
+        new Headroom(document.getElementById("headroom")).init();
+      });
+    </script>
+  </body>
+</html>
