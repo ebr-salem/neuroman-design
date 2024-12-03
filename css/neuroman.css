@@ -268,3 +268,22 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
   }
+ 
+
+
+  .news-card .badge {
+    background-color: #dc3545; 
+    color: white;
+    font-size: 0.75rem;
+    margin-bottom: 10px;
+  }
+
+  .social-links a {
+    color: #1B2E46;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: #007bff;
+}
